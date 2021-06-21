@@ -1,0 +1,216 @@
+body {
+  background-color: rgb(20, 20, 20);
+}
+
+.base-box {
+  border: 2px solid rgb(75, 75, 75);
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.base-item {
+  width: 200px;
+  height: 70px;
+  box-sizing: border-box;
+  padding: 5px;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+.base-item:nth-child(even) {
+  background-color: #fff !important;
+  color: #3e3e3e;
+}
+
+.base-item:nth-child(odd) {
+  background-color: rgb(88, 88, 88) !important;
+  color: #fff;
+}
+
+/* --------- display:flex --------- */
+
+/* 
+
+.box {
+  display: flex;
+}
+
+*/
+
+/* --------- flex-direction --------- */
+
+/* .box {
+  display: flex;
+  flex-direction: column;
+  flex-direction: column-reverse;
+  flex-direction: row;
+  flex-direction: row-reverse;
+} */
+
+/* --------- justify-content --------- */
+
+/* .box {
+  display: flex;
+  justify-content: center;
+  justify-content: flex-start;
+  justify-content: flex-end;
+  justify-content: space-around;
+  justify-content: space-between;
+  justify-content: space-evenly;
+} */
+
+
+/* --------- align-items --------- */
+
+/* .box {
+  display: flex;
+  height: 200px;
+  align-items: center;
+  align-items: flex-start;
+  align-items: flex-end;
+} */
+
+
+/* --------- flex, flex-grow, flex-shrink, flex-basis --------- */
+
+/* .box {
+  display: flex;
+} */
+
+/* flex: flex-grow | flex-shrink | flex-basis */
+/* 
+  啥都不寫，box(display:flex)裡的item-1跟item-2會有預設的：
+  flex: 0 1 auto; 
+*/
+
+/* --------- flex-grow  flex-basis --------- */
+
+/* .item-1 {
+  flex: none; 
+  flex-grow: 1;
+  flex-basis: 500px;
+}
+
+.item-2 {
+  flex: none;
+} */
+
+/* --------- flex-shrink flex-basis --------- */
+
+/* .item-1 {
+  flex: none; 
+  flex-shrink: 1;
+  flex-basis: 1000px;
+}
+
+.item-2 {
+  flex: none;
+} 
+
+*/
+
+/* --------- flex --------- */
+
+/* flex等於這三個的縮寫 flex-grow | flex-shrink | flex-basis */
+/* flex: 1 1 0 是flex: 1的縮寫 */
+
+/* .item-1 {
+  flex: 1; 
+} */
+
+/* --------- flex縮寫與比例 --------- */
+
+/* .item-1 {
+  flex: 2 1 300px; 
+}
+
+.item-2 {
+  flex: 1 1 300px;
+}  
+
+*/
+
+/* --------- flex-wrap --------- */
+
+/* .box {
+  display: flex;
+  height: 200px;
+  flex-wrap: wrap;
+  flex-wrap: wrap-reverse;
+  flex-wrap: nowrap;
+}
+
+.item-1 {
+  width: 700px;
+}
+
+.item-2 {
+  width: 500px;
+}  
+
+*/
+
+/* --------- align-content --------- */
+
+/* .box {
+  display: flex;
+  height: 200px;
+  flex-wrap: wrap;
+  align-content: center;
+  align-content: flex-start;
+  align-content: flex-end;
+  align-content: space-around;
+  align-content: space-between;
+  align-content: stretch;
+}
+
+.item-1 {
+  width: 500px;
+}
+
+.item-2 {
+  width: 500px;
+}  */
+
+/* --------- order --------- */
+/* flexible item */
+/* .box {
+  display: flex;
+  height: 200px;
+  flex-wrap: wrap;
+}
+
+.item-1 {
+  width: 500px;
+  order: 10;
+}
+
+.item-2 {
+  width: 500px;
+  order: 7;
+} 
+ */
+
+/* --------- 垂直置中 --------- */
+
+/* .box {
+  display: flex;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+}
+
+.item-1 {
+  width: 100px;
+}
+
+.item-2 {
+  display: none;
+}  */
+
+
+
+
+
+
+
