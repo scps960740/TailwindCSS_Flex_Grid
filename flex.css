@@ -29,13 +29,11 @@ body {
 
 /* --------- display:flex --------- */
 
-/* 
 
-.box {
+/* .box {
   display: flex;
-}
+} */
 
-*/
 
 /* --------- flex-direction --------- */
 
@@ -105,9 +103,9 @@ body {
 
 .item-2 {
   flex: none;
-} 
+}  */
 
-*/
+
 
 /* --------- flex --------- */
 
@@ -115,20 +113,20 @@ body {
 /* flex: 1 1 0 是flex: 1的縮寫 */
 
 /* .item-1 {
-  flex: 1; 
+  flex: 0 1 500px; 
 } */
 
 /* --------- flex縮寫與比例 --------- */
 
 /* .item-1 {
-  flex: 2 1 300px; 
+  flex: 2 0 300px; 
 }
 
 .item-2 {
-  flex: 1 1 300px;
-}  
+  flex: 1 0 300px;
+}   */
 
-*/
+
 
 /* --------- flex-wrap --------- */
 
@@ -146,9 +144,9 @@ body {
 
 .item-2 {
   width: 500px;
-}  
+}   */
 
-*/
+
 
 /* --------- align-content --------- */
 
@@ -182,14 +180,14 @@ body {
 
 .item-1 {
   width: 500px;
-  order: 10;
+  order: 2;
 }
 
 .item-2 {
   width: 500px;
-  order: 7;
-} 
- */
+  order: 1;
+}  */
+
 
 /* --------- 垂直置中 --------- */
 
